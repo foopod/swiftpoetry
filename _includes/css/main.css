@@ -25,6 +25,11 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+.btn-success:hover{
+   background-color: #{{ site.color.pink }};
+    border-color: #{{ site.color.pink }};
+}
+
 h1,
 h2,
 h3,
@@ -64,6 +69,10 @@ hr.star-light {
 hr.star-light:after {
     color: #fff;
     background-color: #{{ site.color.primary }};
+}
+
+hr.star-light2:after {
+    background-color: #{{ site.color.third }};
 }
 
 hr.star-primary {
@@ -181,7 +190,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.third }};
 }
 
 @media(max-width:767px) {
