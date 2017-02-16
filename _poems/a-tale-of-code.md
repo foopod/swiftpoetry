@@ -5,7 +5,7 @@ layout: poem
 
 ## The code
 
-Jollowing the road,
+Following the road,
 
 that wizards before me code.
 
