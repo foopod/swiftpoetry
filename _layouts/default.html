@@ -8,16 +8,18 @@
     {% include about.html %}
         
     <section style="background-color: #{{ site.color.primary }}; color:white;" class="text-center">
-        <h1>Some sample poems</h1>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Some sample poems</h2>
+                <hr class="star-light star-light2">
+            </div>
+        </div>
         <div class="container">
             
                 <div class="row">
                     {% for poem in site.poems reversed %}
                     <div class="col-lg-6">
-                        {{ if forloop.index == 0}}
-                            {{ poem.content }}
-                        {{ endif }}
-                        {{ if forloop.index == 2}}
+                        {{ if forloop.index < 2 }}
                             {{ poem.content }}
                         {{ endif }}
                     </div>
