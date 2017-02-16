@@ -11,4 +11,4 @@ that wizards before me code.
 
 Just wait while it loads.
 
-<p><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></p>
+<p><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></p>
