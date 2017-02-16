@@ -6,12 +6,12 @@
     {% include header.html %}
 <!--    {% include portfolio_grid.html %}-->
     {% include about.html %}
-
-    <section style="background-color: #{{ site.color.secondary }};">
+    <h2>Some sample poems
+    <section style="background-color: #{{ site.color.primary }}; color:white;">
         <div class="container">
             {% for poem in site.poems reversed %}
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-6">
                         {{ poem.content }}
                     </div>
                 </div>
