@@ -13,8 +13,13 @@
             
                 <div class="row">
                     {% for poem in site.poems reversed %}
-                    <div class="col-lg-4">
-                        {{ poem.content }}
+                    <div class="col-lg-6">
+                        {{ if forloop.index == 0}}
+                            {{ poem.content }}
+                        {{ endif }}
+                        {{ if forloop.index == 2}}
+                            {{ poem.content }}
+                        {{ endif }}
                     </div>
                     {% endfor %}
                 </div>
