@@ -1,0 +1,4 @@
+{
+  "build_cmd": "jekyll build",
+  "public_html" : "_site"
+}
